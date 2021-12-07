@@ -14,5 +14,12 @@ class Animal:
         pass
 
     # salva no DB
-    def save(self, animal: Animal):
+    #def save(self, animal: Animal):
+    #    pass
+
+class Db:
+    def __init__(self):
+        pass
+
+    def save(self, obj):
         pass
